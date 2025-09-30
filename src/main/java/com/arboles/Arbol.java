@@ -52,7 +52,7 @@ public class Arbol {
 
 
     }
-
+go
     public void setNodesValues(String idFather, List<String> values){
         for(Nodo nodo : raiz.getHijos()){
             if(nodo.getId().equals(idFather)){
