@@ -52,7 +52,7 @@ public class Arbol {
 
 
     }
-go
+
     public void setNodesValues(String idFather, List<String> values){
         for(Nodo nodo : raiz.getHijos()){
             if(nodo.getId().equals(idFather)){
@@ -69,7 +69,7 @@ go
     public static void main(String[] args){
         Arbol arbol = new Arbol();
         arbol.inicializeSections();
-        List<String> valores = Arrays.asList("1", "2", "3", "4", "5", "6");
+        List<String> valores = Arrays.asList("1", "2", "3", "4", "5", "6");//la idea es que la toma de datos se reuna en una lista de estas y se pase para poner los valores en el sudoku
         arbol.setNodesValues("1", valores);
 
     }
